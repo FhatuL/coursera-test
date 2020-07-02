@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap");
+
+body {
+    color: white;
+    margin-top: 3%;
+    font-family: Montserrat, sans-serif;
+}
+
+#main {
+    color: black;
+    font-weight: bold;
+    font-size: 1.75rem;
+    margin-bottom: 3%;
+}
+
+.sections {
+    margin: 0 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.box {
+    background-color: #383e56;
+    
+    /* width: 30%; */
+    margin: 2% ;
+    
+    text-align: center; 
+}
+
+
+h1 {
+    font-weight: normal;
+    font-size: 1.25rem;
+    text-align: center;
+}
+
+.title {
+    float: right;
+    color: black;
+    background-color: #f69e7b;
+    /* width: 125px; */
+    padding: 1% 2%;
+    
+}
+
+.engineering {
+    background-color: #d4b5b0;
+}
+
+.music {
+    background-color: #89c9b8;
+}
+
+p {
+    clear: both;
+    padding: 5%;
+    padding-bottom: 0;
+    font-weight: normal;
+    font-size: 1rem;
+}
+
+
+@media (min-width: 768px) and (max-width:991px) {
+    .sections {
+
+        flex-wrap: wrap;
+        
+    }
+
+    .section1, .section2 {
+        width: 46%;
+    }
+
+
+}
+
+@media (max-width:767px) {
+    .sections {
+        flex-direction: column;
+    }
+
+  
+}
+
+
+
+
