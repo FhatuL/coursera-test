@@ -1,0 +1,44 @@
+*{
+    font-family: 'Indie Flower', cursive;
+}
+
+button {
+    margin-bottom: 2%;
+}
+
+#Menu-title {
+    padding-top: 3%;
+}
+
+
+
+#Menu-Items {
+    margin-top: 3%;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.menu-box {
+    padding: 0 2%;
+    background-color: #fdffb6;
+    min-height: 1000px;
+}
+
+.menu-dish {
+    
+    background-color: #caffbf;
+    padding: 1%;
+    margin-top: 4%;
+}
+
+.nav-color {
+    background-color: #0077b6;
+}
+
+.nav-item:hover {
+    
+    width: 100%;
+    background-color: #90e1ef8f;
+}
